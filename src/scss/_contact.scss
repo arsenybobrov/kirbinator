@@ -1,0 +1,5 @@
+.contact-item + .contact-item {
+  @media (max-width: 767px) {
+    margin-top: 45px;
+  }
+}

@@ -1,0 +1,193 @@
+title: Startseite
+pages: false
+files: true
+fields:
+
+  title:
+    label: Seitenname
+    type:  text
+
+##########################################
+  start_navigation:
+    label: NAVIGATION
+    type:  line
+
+  navigation:
+    label: Navigation
+    type:  structure
+    style: table
+    fields:
+      title:
+        label: Navigationspunkt-Name
+        type: text
+      href:
+        label: Zu welchem punkt soll gescrollt werden (Scrollpunkt)?
+        type: text
+
+##########################################
+  start_header:
+    label: HEADER
+    type:  line
+
+  header_bgimage:
+    label: Header-Hintergrundbild
+    type:  image
+
+  header_headline:
+    label: Header-Hauptüberschrift
+    type:  textarea
+
+  header_description:
+    label: Header-Hauptbeschreibung
+    type:  textarea
+
+  header_cta_left:
+    label: Header-Button
+    type:  text
+
+##########################################
+  start_infolayer:
+    label: INFOLAYER
+    type:  line
+
+  infolayer_scrollpoint:
+    label: Über-Mich-Scrollpunkt (muss mit dem aus der Navigation übereinstimmen)
+    type: text
+
+  infolayer_headline:
+    label: Über-Mich-Überschrift
+    type:  textarea
+
+  infolayer_description:
+    label: Über-Mich-Beschreibung
+    type:  textarea
+
+  infolayer_cta:
+    label: Über-Mich-Button
+    type:  text
+
+  infolayer_cta_scrollpoint:
+    label: Wohin soll der Über-Mich-Button scrollen (Scrollpoint)?
+    type:  text
+
+##########################################
+  start_servicelayer:
+    label: SERVICELAYER
+    type:  line
+
+  serviceslayer_scrollpoint:
+    label: Leistungen-Scrollpunkt (muss mit dem aus der Navigation übereinstimmen)
+    type: text
+
+  serviceslayer_headline:
+    label: Leistungen-Überschrift
+    type:  textarea
+
+  serviceslayer_items:
+    label: Leistungen
+    type:  structure
+    style: table
+    fields:
+      icon:
+        label: Icon (https://fontawesome.com/icons/)
+        type: text
+      headline:
+        label: Leistungsüberschrift
+        type: textarea
+      description:
+        label: Leistungsbeschreibung
+        type: textarea
+
+##########################################
+  start_portfolio:
+    label: PORTFOLIO
+    type:  line
+
+  portfolio_scrollpoint:
+    label: Portfolio-Scrollpunkt (muss mit dem aus der Navigation übereinstimmen)
+    type: text
+
+  portfoliotype:
+    label: Wie soll das Portfolio dargestellt werden?
+    type: select
+    options:
+      kachel: Bild und Informationen
+      masonry: Nur Bilder
+
+  portfolio_headline:
+    label: Portfolio-Überschrift
+    type:  textarea
+
+  portfolio_items:
+    label: Projekte, Arbeiten, Produkte etc.
+    type:  structure
+    style: table
+    fields:
+      image:
+        label: Bild
+        type: image
+      headline:
+        label: Bildüberschrift
+        type: textarea
+      description:
+        label: Bildbeschreibung
+        type: textarea
+
+##########################################
+  start_contact:
+    label: KONTAKT
+    type:  line
+
+  contact_scrollpoint:
+    label: Kontakt-Scrollpunkt (muss mit dem aus der Navigation übereinstimmen)
+    type: text
+
+  contact_headline:
+    label: Kontakt-Überschrift
+    type:  textarea
+
+  contact_text:
+    label: Kontakt-Text
+    type:  textarea
+
+  contact_btns:
+    label: Die Kontaktdaten (Tel, Mail, Anschrift) werden global über den Menpü-Punkt Einstellungen gepflegt
+    type: info
+
+##########################################
+  start_footer_navigation:
+    label: FOOTER-NAVIGATION
+    type:  line
+
+  footer_navigation:
+    label: Footer-Navigation
+    type:  structure
+    style: table
+    fields:
+      linktype:
+        label: Soll auf eine externe Seite verlinkt werden?
+        type: select
+        options:
+          no: Nein (es soll ein Modal bzw. Pop-Up werden)
+          yes: Ja (z.B. auf https://facebook.com)    
+      title:
+        label: Navigationspunkt-Name
+        type: text
+      href:
+        label: Welches Modal-Fenster (Pop-Up) soll aufgemacht werden (Modal-ID) ODER externen Link eintragen?
+        type: text  
+
+  footer_modals:
+    label: Modal-Fenster (Pop-Ups)
+    type:  structure
+    style: table
+    fields:
+      modalid:
+        label: Modal-Fenster ID (Modal-ID)
+        type: text
+      headline:
+        label: Modal-Fenster Überschrift
+        type: text
+      text:
+        label: Modal-Fenster Inhalt
+        type: textarea

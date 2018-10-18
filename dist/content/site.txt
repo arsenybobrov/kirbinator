@@ -1,0 +1,33 @@
+Title: My Company
+
+----
+
+Description: Eine schöne Beschreibung meiner Seite :)))
+
+----
+
+Keywords: 
+
+----
+
+Mainlogo: 
+
+----
+
+Tel: +49-177-1234567
+
+----
+
+Mail: info@example.com
+
+----
+
+Adress: 
+
+My Company GmbH
+Musterstr. 3
+12345 Mustersatdt
+
+----
+
+Ogimage: backgrounds-black-wallpapers-hd.jpg

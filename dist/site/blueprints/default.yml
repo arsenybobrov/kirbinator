@@ -1,0 +1,32 @@
+title: General Page Information
+pages: false
+files: true
+fields:
+
+  title:
+    label: Seitentitel
+    type:  text
+
+  description:
+    label: Seitenbeschreibung
+    type:  textarea
+
+  mainlogo:
+    label: Logo
+    type: image
+
+  tel:
+    label: Telefonnummer
+    type:  text
+    
+  mail:
+    label: E-Mail-Adresse
+    type:  text
+
+  adress:
+    label: Anschrift
+    type:  textarea    
+
+  ogimage:
+    label: Bild, das angezeigt wird wenn der Link zu dieser Seite geteilt wird
+    type:  image

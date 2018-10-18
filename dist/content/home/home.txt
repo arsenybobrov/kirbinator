@@ -1,0 +1,230 @@
+Title: Startseite
+
+----
+
+Text: Your Favorite Source of Free Bootstrap Themes
+
+----
+
+Main-headline: Your Favorite Source of Free Bootstrap Themes
+
+----
+
+Main-description: Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!
+
+----
+
+Header-bgimage: header.jpg
+
+----
+
+Header-headline: Das ist die Überschrift im Header
+
+----
+
+Header-description: Willkommen auf meiner neuen Seite. Ich bitte sehr gute Dienstleistungen an.
+
+----
+
+Header-cta-left: Über mich
+
+----
+
+Header-cta-middle: 00491775889431
+
+----
+
+Header-cta-right: info@example.com
+
+----
+
+Navigation: 
+
+- 
+  title: Über mich
+  href: about
+- 
+  title: Leistungen
+  href: services
+- 
+  title: Impressionen
+  href: portfolio
+- 
+  title: Kontakt
+  href: contact
+
+----
+
+About-scrollpoint: about
+
+----
+
+About-headline: Ich rocke das Haus
+
+----
+
+About-description: Ich arbeite seit vielen Jahren auf diesem Gebiet und kann sehr tolle Projekte umsetzen.
+
+----
+
+About-cta: Meine Leistungen
+
+----
+
+Ctabrandbg-headline: Ein Text über mich
+
+----
+
+Ctabrandbg-description: Ich rocke das Haus
+
+----
+
+Ctabrandbg-scrollpoint: about
+
+----
+
+Ctabrandbg-cta: Meine Leistungen
+
+----
+
+Ctabrandbg-cta-scrollpoint: services
+
+----
+
+Infolayer-scrollpoint: about
+
+----
+
+Infolayer-headline: Über mich
+
+----
+
+Infolayer-description: Ich rocke das Haus!
+
+----
+
+Infolayer-cta: Meine Leistungen
+
+----
+
+Infolayer-cta-scrollpoint: services
+
+----
+
+Serviceslayer-scrollpoint: services
+
+----
+
+Serviceslayer-headline: Meine Leistungen
+
+----
+
+Serviceslayer-items: 
+
+- 
+  icon: fa-diamond
+  headline: Konzept
+  description: Hier kommt eine Leistungsbeschreibung
+- 
+  icon: fa-recycle
+  headline: Nachhaltigkeit
+  description: >
+    Hier kommt ebenfalls eine Beschreibung
+    der angebotenen Leistung.
+- 
+  icon: fa-envelope
+  headline: Kommunikation
+  description: Wir reden gerne
+
+----
+
+Contact-headline: Wir freuen uns auf Ihren Anruf
+
+----
+
+Contact-text: Hier könnten z.B. die Sprech- bzw. Öffnungszeiten stehen.
+
+----
+
+Contact-items: 
+
+----
+
+Contact-scrollpoint: contact
+
+----
+
+Contact-tel: 
+
+----
+
+Footer-navigation: 
+
+- 
+  linktype: 'no'
+  title: Impressum
+  href: impressum
+- 
+  linktype: 'no'
+  title: "AGB's"
+  href: agbs
+- 
+  linktype: 'yes'
+  title: 'auf  Facebook folgen'
+  href: http://www.facebook.com
+
+----
+
+Footer-modals: 
+
+- 
+  modalid: impressum
+  headline: Impressum
+  text: Hier kommt das Impressum
+- 
+  modalid: agbs
+  headline: Allgemeine Geschäftsbedingungen
+  text: "Hier kommen die AGB'S"
+
+----
+
+Portfolio-scrollpoint: portfolio
+
+----
+
+Portfolio-items: 
+
+- 
+  image: rails.jpg
+  headline: Ein cooles Bild
+  description: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus. Donec quam felis, ultricies nec,
+    pellentesque eu, pretium quis, sem.
+    Nulla consequat massa quis enim. Donec
+    pede justo, fringilla vel, aliquet nec,
+    vulputate eget.
+- 
+  image: rocks.jpg
+  headline: Bild nr. 2
+  description: Hier kommt die Bildbeschreibung nr.2
+- 
+  image: rails.jpg
+  headline: Gleise
+  description: Das sind Gleise
+- 
+  image: rocks.jpg
+  headline: Steine
+  description: Viele Steine
+
+----
+
+Portfolio-headline: Projektübersicht
+
+----
+
+Portfoliotype: kachel
